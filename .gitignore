@@ -1,0 +1,8 @@
+# guides only — never commit data or credentials
+.DS_Store
+*.csv
+*.parquet
+*.xlsx
+*.sas7bdat
+.pgpass
+.env
