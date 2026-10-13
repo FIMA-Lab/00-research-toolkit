@@ -1,6 +1,6 @@
 # WRDS — get an account, download data, use it well
 
-*For FIMA Lab members and students in our courses. Last checked 2026-10-13.*
+*For FIMA Lab members and students in our courses. Last checked 2026-10-13. Replaces the ML & FinTech course copy `wrds-guide.md`.*
 
 **WRDS** (Wharton Research Data Services) is the data platform most finance papers use.
 One login gives you many databases: stock prices, financial statements, analyst forecasts,
@@ -97,7 +97,8 @@ A password committed to GitHub stays in the history even after you delete the li
 
 WRDS data is licensed to NYCU. You may use it for your coursework and research; you may **not** pass it on.
 
-- Keep downloads in your project's raw-data folder, exactly as downloaded.
+- Keep downloads in your project's raw-data folder, exactly as downloaded
+  (ML & FinTech replication project: `replicating-a-paper/data/rawdata/`).
 - A repository that holds WRDS data must be **private**. Never put WRDS data in a public repository,
   a shared drive or a chat group.
 - Commit the **query**: the script, or a note of the four form choices. Anyone with their own WRDS
@@ -126,4 +127,5 @@ What to do, in this order:
    rolled, and compare your summary statistics with the paper's table before you model anything.
 4. **Ask your supervisor** before you commit to a paper whose data you cannot get.
 
-Taiwan market data is in **TEJ**, which NYCU also subscribes to.
+Taiwan market data is in **TEJ**, which NYCU also subscribes to: see [TEJ-teng.md](TEJ-teng.md),
+and ask your TA or supervisor for the login.
